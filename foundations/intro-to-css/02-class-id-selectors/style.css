@@ -1,0 +1,26 @@
+.pink {
+    background-color: rgb(231, 150, 144);
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+}
+
+.med-font {
+    font-size: 36px;
+}
+
+.tnr-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+#blue {
+    color: blue;
+    font-size: 48px;
+}
+
+#green {
+    background-color: rgb(114, 253, 167);
+}
