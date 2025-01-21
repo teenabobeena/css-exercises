@@ -19,6 +19,8 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
+  display: flex;
+  padding: 16px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
@@ -27,12 +29,19 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
+  margin-right: 16px;
   width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
+}
+
+.close {
+  display: flex;
+  justify-content: space-between;
 }
 
 .close-button {
@@ -48,6 +57,15 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 button {
